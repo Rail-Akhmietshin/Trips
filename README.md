@@ -10,7 +10,7 @@ Starting the project build:
 
 After successfully running the project in Docker, write the following commands in the console to perform migrations and collect static files:
 
-* docker-compose -f docker-compose.prod.yml exec web python manage.py migrate --noinput
-* docker-compose -f docker-compose.prod.yml exec web python manage.py collectstatic --no-input --clear
+* docker-compose exec web python manage.py migrate --noinput
+* docker-compose exec web python manage.py collectstatic --no-input --clear
 
 The application will be available at: http://localhost:1337
