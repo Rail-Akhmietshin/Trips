@@ -1,0 +1,211 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 120px;
+    min-height: 700px;
+    font-size: 150%;
+    
+}
+
+.wrapper_min {
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+    background: rgb(254, 254, 254);
+    /* border-radius: 50px; */
+}
+
+
+
+.wrapper_min div {
+    margin: 30px 30px 20px;
+}
+
+hr {
+    background: rgb(145, 145, 145);
+    height: 3px;
+}
+
+.my_data {
+    /* border: 3px solid green; */
+}
+
+.my_data li {
+    list-style-type: none;
+    margin: 5px 15px;
+    color: #65a7ab;
+}
+
+#heading_data {
+    text-align: center;
+}
+
+.autobiography p {
+    margin: 8px;
+}
+
+
+.profile {
+    display: flex;
+    justify-content: space-between;
+    min-width: 400px;
+    align-items: center;
+    font-size: 150%;
+}
+
+.edit_profile {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.my_trips {
+    font-size: 130%;
+    max-width: 900;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.my_trips a{
+    color: #6586ab;
+}
+
+
+.edit_profile a {
+    padding: 10px;
+    color: #65a7ab;
+}
+
+
+.autobiography {
+    word-break: break-all;
+}
+
+.exit_delete_account {
+    display: flex;
+    justify-content: space-between;
+}
+
+.exit_delete_account a:nth-child(odd) {
+    color:#65a7ab;
+}
+
+.exit_delete_account a:first-child {
+    color:#65a7ab;
+}
+
+.exit_delete_account a:last-child {
+    color:red;
+}
+
+.modal {
+    display: none; 
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    min-height: 100%;
+    margin: 0;
+    min-width: 100%;
+    overflow: auto;
+    background: rgba(0,0,0,0.8);
+}
+
+#myBtn {
+    border: 0;
+    background: white;
+    font-size: 110%;
+    color: red;
+}
+
+#myBtn:hover {
+    cursor: pointer;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    text-align: center;
+    margin: 22% auto;
+    padding: 25px;
+    border: 1px solid #888;
+    width: 40%;
+    height: 40%;
+    font-size: 130%;
+}
+
+.shut {
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.delete {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.delete a {
+    color: red;
+    margin: 0 20px;
+}
+
+/* .confirm {
+    float: left;
+} */
+
+/* .popup {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    overflow-y: auto;
+    overflow-x: hidden;
+    transition: all 0.8s ease 0s;
+}
+
+.popup.open {
+    opacity: 1;
+    visibility: visible;
+}
+
+.popup.open .popup__content {
+    transform: perspective(600px) translate(0px, 0%) rotateX(0deg);
+    opacity: 1;
+}
+
+.popup__body {
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 10px;
+}
+
+.popup__content {
+    background-color: white;
+    color: black;
+    max-width: 800px;
+    padding: 30px;
+    position: relative;
+}
+
+.popup__title {
+    font-size: 40px;
+    margin: 0px 0px 1em 0px;
+}
+
+.popup__close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+} */
+
