@@ -1,4 +1,19 @@
+# Trips
+
+## Description
+
 This project is designed to help people travel between Russian cities without service fees, paying only for the trip itself directly to the driver.
+
+The site is fully adaptive for all types of devices
+
+Functional:
+* Search for suitable trips
+* Publishing your trip
+* Record people who are along the way with you
+* Personal account
+* Authorization via social networks
+
+## Usage
 
 !!! After cloning the repository, enter personal parameters in the .env.prod and .env.prod.db files !!!
 
